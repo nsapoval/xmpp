@@ -1,4 +1,4 @@
-OBJS = src/main.o 
+OBJS = src/main.o src/thread_pool.o lib/simclist.o
 DEPS = $(OBJS:.o=.d)
 CC = gcc
 CFLAGS = -g3 -Wall -fpic -std=gnu99 -MMD -MP
